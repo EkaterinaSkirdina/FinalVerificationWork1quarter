@@ -47,8 +47,7 @@ void PrintArray(string[] array)
     {
         Console.Write($"\"{array[i]}\", ");
     }
-    Console.Write($"\"{array[array.Length-1]}\"");
-    Console.Write("]");
+    Console.Write($"\"{array[array.Length-1]}\"]");
 }
 
 Main();
